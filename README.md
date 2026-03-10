@@ -87,3 +87,49 @@ customer-behavior-analysis/
 ├── LICENSE
 └── .gitignore
 ```
+
+## 🔄 Data Pipeline Workflow
+
+### Key Pipeline Features:
+- ✅ Automated logging for error tracking
+- ✅ Configurable file paths
+- ✅ Modular functions for reusability
+- ✅ Error handling at each stage
+- ✅ Database integration
+
+## 📈 Key Findings
+
+### Revenue by Category
+- **Clothing** dominates with **$104,264** (44.7% of total revenue)
+- **Accessories** follows at **$74,200** (31.8%)
+- **Footwear** and **Outerwear** contribute remaining 23.5%
+
+### Customer Segmentation
+| Segment | Count | % of Total |
+|---------|-------|------------|
+| Loyal | 3,116 | 79.9% |
+| Returning | 701 | 18.0% |
+| New | 83 | 2.1% |
+
+### Seasonal Performance
+- **Fall** is peak season: $60,018 revenue
+- **Summer** is slowest: $55,777 revenue
+- Clothing is top category in ALL seasons
+
+### Gender Analysis
+- Male customers contribute **68%** of total revenue
+- Male:Female spending ratio is approximately **2.1:1** across all categories
+
+## 💻 Getting Started
+
+### Prerequisites
+- Python 3.9+
+- MySQL 8.0+
+- Power BI Desktop (for dashboard)
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/yourusername/customer-behavior-analysis.git
+cd customer-behavior-analysis
