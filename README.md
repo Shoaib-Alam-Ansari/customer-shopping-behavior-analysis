@@ -10,9 +10,6 @@
 
 A complete end-to-end data analytics project that transforms raw customer transaction data into actionable business insights. This project demonstrates the full data analytics workflow: data cleaning, exploratory analysis, SQL querying, and interactive dashboard creation.
 
-**Live Dashboard:** [Add Power BI Service Link Here]
-**Project Report:** [Add PDF Report Link Here]
-
 ## 🎯 Key Business Questions Answered
 
 - Which customer segments generate the highest revenue?
@@ -131,5 +128,6 @@ customer-behavior-analysis/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/customer-behavior-analysis.git
+git clone https://github.com/Shoaib-Alam-Ansari/customer-behavior-analysis.git
 cd customer-behavior-analysis
+
