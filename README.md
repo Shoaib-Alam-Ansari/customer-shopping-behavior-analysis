@@ -94,6 +94,7 @@ customer-behavior-analysis/
 │
 ├── logs/
 │ └── pipeline.log
+|
 ├── images/
 │ └── customer_analysis.png
 │ └── executive_overview.png
