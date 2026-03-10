@@ -1,4 +1,4 @@
-# Customer Activity & Trends Analysis Insights
+# From Data to Decisions: Customer Shopping Behavior Analysis for Retail Growth
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
@@ -6,17 +6,26 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
+📊 **Live Dashboard:** [View Interactive Dashboard](your-power-bi-service-link)  
+📄 **Full Report:** [Download Project Report PDF](./reports/Project_Report.pdf)
+
+---
+
 ## 📋 Project Overview
 
 A complete end-to-end data analytics project that transforms raw customer transaction data into actionable business insights. This project demonstrates the full data analytics workflow: data cleaning, exploratory analysis, SQL querying, and interactive dashboard creation.
 
+---
+
 ## 🎯 Key Business Questions Answered
 
-- Which customer segments generate the highest revenue?
-- What products drive sales in each category?
-- How do discounts and promotions impact purchase behavior?
-- Which seasons perform best for different product categories?
-- What are the spending patterns across age groups and genders?
+✅ Which customer segments generate the highest revenue?  
+✅ What products drive sales in each category?  
+✅ How do discounts impact purchase behavior?  
+✅ Which seasons perform best for different products?  
+✅ What are spending patterns across age groups and genders?
+
+---
 
 ## 📊 Dataset Overview
 
@@ -36,6 +45,8 @@ A complete end-to-end data analytics project that transforms raw customer transa
 | **Transaction Data** | Purchase Amount, Discount Applied, Promo Code Used, Shipping Type |
 | **Customer Behavior** | Previous Purchases, Purchase Frequency, Review Rating |
 
+---
+
 ## 🛠️ Tech Stack
 
 | Tool | Purpose |
@@ -47,7 +58,20 @@ A complete end-to-end data analytics project that transforms raw customer transa
 | **Power BI** | Interactive dashboard |
 | **Jupyter Notebook** | Development environment |
 
+---
+
+## 🔧 Techniques Used
+
+- **Data Cleaning:** Handling missing values, standardizing columns, removing duplicates
+- **Feature Engineering:** Age groups, customer segmentation
+- **Exploratory Data Analysis:** Statistical summaries, correlation analysis, outlier detection
+- **SQL Analytics:** Window functions, CTEs, aggregations, ranking
+- **Data Visualization:** Bar charts, histograms, boxplots, interactive dashboards
+
+---
+
 ## 📁 Project Structure
+
 ```
 customer-behavior-analysis/
 │
@@ -78,6 +102,9 @@ customer-behavior-analysis/
 ```
 
 ## 🔄 Data Pipeline Workflow
+```
+Raw CSV → Data Cleaning → Feature Engineering → MySQL Database → Analysis & Dashboard
+```
 
 ### Key Pipeline Features:
 - ✅ Automated logging for error tracking
@@ -85,6 +112,8 @@ customer-behavior-analysis/
 - ✅ Modular functions for reusability
 - ✅ Error handling at each stage
 - ✅ Database integration
+
+---
 
 ## 📈 Key Findings
 
@@ -109,37 +138,62 @@ customer-behavior-analysis/
 - Male customers contribute **68%** of total revenue
 - Male:Female spending ratio is approximately **2.1:1** across all categories
 
-## 💻 Getting Started
+---
 
-### Prerequisites
-- Python 3.9+
-- MySQL 8.0+
-- Power BI Desktop (for dashboard)
+## 📊 Results Summary
+
+| Metric | Value |
+|--------|-------|
+| Total Revenue | $233,000 |
+| Total Customers | 3,900 |
+| Average Order Value | $59.76 |
+| Loyal Customers | 79.9% |
+| Top Category | Clothing ($104K) |
+| Peak Season | Fall ($60K) |
+| Gender Split | 68% Male / 32% Female |
+
+---
 
 ## 📊 Dashboard Preview
-  ### Executive Overview Dashboard
-  ![Executive Overview](images/executive_overview.png)
-  ## 📈 Key Insights
-   - **Total Revenue:** 233K
-   - **Total Customers:** 3900
-   - **Average Order Value:**  59.76
-   - ## Clothing contributes the largest revenue share at 104K, followed by Accessories at 74K.Male customers contribute 68% of total revenue.
 
-  ### Customer Analysis Dashboard
-  ![Executive Overview](images/customer_analysis.png)
-  ## 📈 Key Insights
-   - ## Loyal customers generate the majority of revenue, contributing 186K, which indicates strong customer retention
-   - ## Middle-aged customers generate the highest revenue contribution among age groups.
+### Executive Overview Dashboard
 
-  ### Product & Promotion Analysis
-  ![Executive Overview](images/product_promotion.png)
-  ## 📈 Key Insights
-   - ## Blouse, Shirt, and Dress are among the top revenue-generating products.
-   - ## Promo codes are used in 43% of orders, but they slightly reduce average order value.
-   - ## Footwear has the highest customer satisfaction rating.
+![Executive Overview Dashboard](./images/executive_overview.png)
+
+**Key Insights:**
+- **Total Revenue:** $233,000
+- **Total Customers:** 3,900
+- **Average Order Value:** $59.76
+- Clothing dominates revenue ($104K), followed by Accessories ($74K)
+- Male customers contribute 68% of total revenue
+
+---
+
+### Customer Analysis Dashboard
+
+![Customer Analysis Dashboard](./images/customer_analysis.png)
+
+**Key Insights:**
+- Loyal customers drive 80%+ of revenue ($186K) – strong retention
+- Middle-aged customers are the highest spending age group
+
+---
+
+### Product & Promotion Analysis
+
+![Product & Promotion Dashboard](./images/product_promotion.png)
+
+**Key Insights:**
+- Top products: Blouse, Shirt, Dress lead in revenue
+- Promo codes used in 43% of orders but slightly reduce average order value
+- Footwear has highest customer satisfaction ratings
+
+---
 
 ## 🗄️ SQL Business Queries
-```Category Revenue Analysis
+
+```sql
+-- Category Revenue Analysis
 SELECT category, SUM(purchase_amount) AS total_revenue
 FROM clean_customer_data
 GROUP BY category
@@ -155,7 +209,6 @@ WITH top_ranked_items AS (
 SELECT category, item_purchased, total_revenue
 FROM top_ranked_items
 WHERE rank = 1;
-```
 
 ## 📝 Key Insights & Recommendations
   ## Loyal Customers are Gold
