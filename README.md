@@ -154,7 +154,36 @@ WITH top_ranked_items AS (
 )
 SELECT category, item_purchased, total_revenue
 FROM top_ranked_items
-WHERE rank = 1; 
+WHERE rank = 1;
+```
+
+## 📝 Key Insights & Recommendations
+  ## Loyal Customers are Gold
+  **Finding:** 79.9% of customers are loyal, contributing 80%+ of revenue
+  **Action:** Implement VIP program with exclusive perks
+  
+## Clothing Drives Business
+ **Finding:** 44.7% of revenue from clothing
+ **Action:** Expand clothing inventory, featured placements
+ 
+## Discount Strategy Needs Review
+  **Finding:** Discounts don't increase order value ($0.85 difference)
+  **Action:** Use discounts for acquisition, not upselling
+
+## Seasonal Planning
+  **Finding:** Fall is peak season ($60K), Summer low ($55.8K)
+  **Action:** Plan major campaigns in Fall, clearance in Summer
+  
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📬 Contact
+**Shoaib Alam** - [https://www.linkedin.com/in/shoaib-alam-769827265/]
+**Project Link:** https://github.com/Shoaib-Alam-Ansari/customer-behavior-analysis
+ 
 
 
 
