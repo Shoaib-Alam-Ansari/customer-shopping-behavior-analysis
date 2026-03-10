@@ -89,11 +89,15 @@ customer-behavior-analysis/
 ├── reports/
 │ └── Project_Report.pdf
 │
-├── src/
+├── script/
 │ ├── main.py
 │
 ├── logs/
 │ └── pipeline.log
+├── images/
+│ └── customer_analysis.png
+│ └── executive_overview.png
+│ └── product_promotion.png
 │
 ├── requirements.txt
 ├── README.md
