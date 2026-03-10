@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 📊 **Live Dashboard:** [View Interactive Dashboard](dashborad/powerbi_dashboard.pdf)  
-📄 **Full Report:** [Download Project Report PDF](./reports/Project_Report.pdf)
+📄 **Full Report:** [Download Project Report PDF](reports/project_report.pdf)
 
 ---
 
