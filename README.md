@@ -117,5 +117,5 @@ customer-behavior-analysis/
 - Power BI Desktop (for dashboard)
 
 ## 📊 Dashboard Preview
-  ![Executive Overview](images/)
+  ![Executive Overview](images/customer_analysis.png)
 
