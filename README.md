@@ -116,10 +116,6 @@ customer-behavior-analysis/
 - MySQL 8.0+
 - Power BI Desktop (for dashboard)
 
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Shoaib-Alam-Ansari/customer-behavior-analysis.git
-cd customer-behavior-analysis
+## 📊 Dashboard Preview
+  ![Executive Overview](images/)
 
