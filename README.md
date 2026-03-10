@@ -242,7 +242,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 📬 Contact
 **Shoaib Alam** - [https://www.linkedin.com/in/shoaib-alam-769827265/]
 
-**Project Link:** https://github.com/Shoaib-Alam-Ansari/customer-behavior-analysis
+**Project Link:** https://github.com/shoaib7459/customer-behavior-analysis
  
 
 
