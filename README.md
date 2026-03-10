@@ -138,5 +138,23 @@ customer-behavior-analysis/
   ## Promo codes are used in 43% of orders, but they slightly reduce average order value.
   ## Footwear has the highest customer satisfaction rating.
 
+## 🗄️ SQL Business Queries
+-- Category Revenue Analysis
+SELECT category, SUM(purchase_amount) AS total_revenue
+FROM clean_customer_data
+GROUP BY category
+ORDER BY total_revenue DESC;
+
+-- Top Products by Category
+WITH top_ranked_items AS (
+    SELECT category, item_purchased, SUM(purchase_amount) AS total_revenue,
+           RANK() OVER (PARTITION BY category ORDER BY SUM(purchase_amount) DESC) AS rank
+    FROM clean_customer_data
+    GROUP BY category, item_purchased
+)
+SELECT category, item_purchased, total_revenue
+FROM top_ranked_items
+WHERE rank = 1; --
+
 
 
