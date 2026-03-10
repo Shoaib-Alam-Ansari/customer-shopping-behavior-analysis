@@ -1,38 +1,53 @@
-# Customer Shopping Behavior Analysis
+# Customer Activity & Trends Analysis Insights
 
-## Project Overview
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)
+![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-This project analyzes customer shopping behavior to generate insights about revenue trends, customer segmentation, and product performance.
+## 📋 Project Overview
 
-The project demonstrates an end-to-end data analytics workflow including data cleaning, SQL analysis, and dashboard development.
+A complete end-to-end data analytics project that transforms raw customer transaction data into actionable business insights. This project demonstrates the full data analytics workflow: data cleaning, exploratory analysis, SQL querying, and interactive dashboard creation.
 
-## Tools Used
+**Live Dashboard:** [Add Power BI Service Link Here]
+**Project Report:** [Add PDF Report Link Here]
 
-Python (Pandas, NumPy)
-SQL (MySQL)
-Power BI
-Jupyter Notebook
+## 🎯 Key Business Questions Answered
 
-## Project Workflow
+- Which customer segments generate the highest revenue?
+- What products drive sales in each category?
+- How do discounts and promotions impact purchase behavior?
+- Which seasons perform best for different product categories?
+- What are the spending patterns across age groups and genders?
 
-1. Data Cleaning & Preprocessing (Python)
-2. Feature Engineering
-3. Exploratory Data Analysis
-4. SQL Business Analysis
-5. Power BI Dashboard
+## 📊 Dataset Overview
 
-## Key Insights
+| Metric | Value |
+|--------|-------|
+| **Total Records** | 3,900 transactions |
+| **Total Features** | 18 columns |
+| **Customer Age Range** | 18-70 years |
+| **Purchase Range** | $20 - $100 |
 
-- Loyal customers generate the majority of revenue
-- Clothing category contributes the highest revenue
-- Male customers represent the largest revenue share
-- Middle-aged customers generate the highest spending
-- Promotional discounts slightly reduce average order value
+### Features Included
 
-## Dashboard
+| Category | Features |
+|----------|----------|
+| **Customer Info** | Age, Gender, Location, Subscription Status |
+| **Product Details** | Item Purchased, Category, Size, Color, Season |
+| **Transaction Data** | Purchase Amount, Discount Applied, Promo Code Used, Shipping Type |
+| **Customer Behavior** | Previous Purchases, Purchase Frequency, Review Rating |
 
-The Power BI dashboard provides interactive insights into customer behavior, revenue trends, and product performance.
+## 🛠️ Tech Stack
 
-## Project Report
+| Tool | Purpose |
+|------|---------|
+| **Python** | Data cleaning, preprocessing, EDA |
+| **Pandas/NumPy** | Data manipulation |
+| **Matplotlib/Seaborn** | Data visualization |
+| **MySQL** | Data storage and querying |
+| **Power BI** | Interactive dashboard |
+| **Jupyter Notebook** | Development environment |
 
-The complete project documentation is available in the report folder.
+## 📁 Project Structure
