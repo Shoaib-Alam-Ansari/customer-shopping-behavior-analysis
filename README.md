@@ -116,12 +116,16 @@ A Python-based **data pipeline** was developed to automate the data preparation 
  - Removed inconsistencies in categorical values
 These steps ensure the dataset is analysis-ready.
 
-### Customer Segmentation
-| Segment | Count | % of Total |
-|---------|-------|------------|
-| Loyal | 3,116 | 79.9% |
-| Returning | 701 | 18.0% |
-| New | 83 | 2.1% |
+## 🧠 Feature Engineering
+Additional features were created to enhance analysis.
+### Age Group
+Customers were categorized into age groups:
+| Age Range| Group |
+|---------|-------|
+| 0-25 | Young Adult | 
+| 26-40 | Young |
+| 41-60 |Middle Aged |
+| 60+ | Senior |
 
 ### Seasonal Performance
 - **Fall** is peak season: $60,018 revenue
