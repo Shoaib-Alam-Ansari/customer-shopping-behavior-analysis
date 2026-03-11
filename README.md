@@ -8,12 +8,47 @@
 
 ---
 
+## 📌 Executive Summary
+
+This project analyzes customer shopping behavior to identify key patterns in purchasing trends, customer segments, and product performance. Using Python, SQL, and Power BI, the project performs data cleaning, exploratory data analysis, and visualization to generate meaningful business insights. The results help understand customer behavior, top-performing product categories, and factors influencing sales performance.
+
 ## 📋 Project Overview
 
 This project analyzes customer shopping behavior to identify patterns in purchasing trends, customer demographics, product performance, and seasonal sales. The goal is to generate actionable insights that can help businesses improve marketing strategies, customer retention, and product planning.
 The project includes a complete data analytics workflow, starting from raw data processing to business intelligence dashboard creation.
 
 ---
+
+## 🧩 Business Problem'
+
+### Retail businesses collect large amounts of customer transaction data, but this data is often underutilized. Without proper analysis, companies struggle to understand:
+  - Which products generate the most revenue
+  - Which customer segments contribute the most to sales
+  - How purchasing behavior varies across age groups and seasons
+  - Whether promotional campaigns and discounts influence purchasing decisions
+This project addresses these challenges by analyzing customer shopping data to identify important trends and insights that can support better marketing strategies, customer targeting, and product planning.
+
+## 📊 Dataset Description
+### The dataset used in this project contains customer shopping transaction data, including demographic information, product purchase details, and customer behavior patterns. It allows analysis of purchasing trends, customer segments, and product performance.
+  - The dataset includes the following features:
+  - Customer ID – Unique identifier assigned to each customer
+  - Age – Age of the customer
+  Gender – Gender of the customer
+Item Purchased – Specific product purchased by the customer
+Category – Product category such as clothing, footwear, accessories, or outerwear
+Purchase Amount (USD) – Total amount spent by the customer on the purchase
+Location – Customer’s location or region
+Size – Size of the purchased product
+Color – Color of the purchased product
+Season – Season in which the purchase occurred (Spring, Summer, Fall, Winter)
+Review Rating – Customer rating given to the purchased product
+Subscription Status – Indicates whether the customer has an active subscription
+Shipping Type – Type of shipping selected for the order
+Discount Applied – Indicates whether a discount was applied to the purchase
+Promo Code Used – Indicates whether a promotional code was used
+Previous Purchases – Number of previous purchases made by the customer
+Payment Method – Payment method used for the purchase
+Frequency of Purchases – How frequently the customer makes purchases
 
 ## 🎯 Key stages of the project include:
   - ✅ Data cleaning and preprocessing 
@@ -25,6 +60,7 @@ The project includes a complete data analytics workflow, starting from raw data 
 
 ---
 ## 🎯 Project Objectives 
+
 ### The primary objectives of this project are:
  - Understand **customer purchasing behavior**
  - Identify **top performing product categories**
