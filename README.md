@@ -16,12 +16,12 @@ The project includes a complete data analytics workflow, starting from raw data 
 ---
 
 ## 🎯 Key stages of the project include:
-  ✅ Data cleaning and preprocessing 
-  ✅ Feature engineering 
- - ✅ Automated data pipeline using Python  
-✅ SQL analysis for business insights 
-✅ Exploratory Data Analysis (EDA)
-✅ Interactive dashboard development using Power BI
+  - ✅ Data cleaning and preprocessing 
+  - ✅ Feature engineering 
+  - ✅ Automated data pipeline using Python  
+  - ✅ SQL analysis for business insights 
+  - ✅ Exploratory Data Analysis (EDA)
+  - ✅ Interactive dashboard development using Power BI
 
 ---
 ## 🎯 Project Objectives 
@@ -242,8 +242,8 @@ A multi-page Power BI dashboard was created to present business insights visuall
 
 
 ## 📬 Contact
- **Shoaib Alam** - [https://www.linkedin.com/in/shoaib-alam-769827265/]
- **Email** - [shoaibalam7459@gmail.com]
+ - **Shoaib Alam** - [https://www.linkedin.com/in/shoaib-alam-769827265/]
+ - **Email** - [shoaibalam7459@gmail.com]
 
 
 
