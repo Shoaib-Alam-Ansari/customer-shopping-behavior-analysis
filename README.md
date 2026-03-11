@@ -127,6 +127,16 @@ Customers were categorized into age groups:
 | 41-60 |Middle Aged |
 | 60+ | Senior |
 
+### Customer Segmentation
+Customers were segmented based on previous purchase behavior:
+|Segment|	Criteria|
+|-------|---------|
+New|	1 purchase|
+Returning|	2–10 purchases|
+Loyal	|More than 10 purchases|
+
+This segmentation helps analyze customer loyalty and revenue contribution.
+
 ### Seasonal Performance
 - **Fall** is peak season: $60,018 revenue
 - **Summer** is slowest: $55,777 revenue
