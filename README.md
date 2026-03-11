@@ -26,9 +26,8 @@ The project includes a complete data analytics workflow, starting from raw data 
 
 ---
 ## 🎯 Project Objectives 
-### 🔧 Techniques Used
-
- - **Data Cleaning:** Handling missing values, standardizing columns, removing duplicates
+### The primary objectives of this project are:
+ - Understand customer purchasing behavior
 - **Feature Engineering:** Age groups, customer segmentation
 - **Exploratory Data Analysis:** Statistical summaries, correlation analysis, outlier detection
 - **SQL Analytics:** Window functions, CTEs, aggregations, ranking
