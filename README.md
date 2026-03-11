@@ -276,6 +276,29 @@ A multi-page Power BI dashboard was created to present business insights visuall
  - Real-time data pipeline integration
  - Advanced customer lifetime value analysis
 
+## 💼 Skills Demonstrated
+### This project demonstrates several key data analytics and data engineering skills:
+
+  ### Data Processing
+    - Data cleaning and preprocessing using Python
+    - Handling missing values
+    - Data transformation and feature engineering
+  ### Data Analysis
+    - Exploratory Data Analysis (EDA)
+    - Customer segmentation analysis
+    - Product performance analysis
+    - Seasonal sales analysis
+  ### Data Visualization
+    - Data visualization using Matplotlib and Seaborn
+    - Business dashboard development using Power BI
+  ### Data Management
+    - Writing analytical queries using SQL
+    - Storing processed data in MySQL
+    - Automating data preparation using a Python data pipeline
+  ### Professional Practices
+    - Structured project organization
+    - Logging and pipeline automation
+    - Documentation using GitHub README
 
 ## 📬 Contact
  - **Shoaib Alam** - [https://www.linkedin.com/in/shoaib-alam-769827265/]
