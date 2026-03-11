@@ -194,26 +194,24 @@ A multi-page Power BI dashboard was created to present business insights visuall
 
 ![Executive Overview Dashboard](./images/executive_overview.png)
 
-**Key Insights:**
-- **Total Revenue:** $233,000
-- **Total Customers:** 3,900
-- **Average Order Value:** $59.76
-- Clothing dominates revenue ($104K), followed by Accessories ($74K)
-- Male customers contribute 68% of total revenue
-
 ---
 
-### Customer Analysis Dashboard
+### 2️⃣ Customer Analysis
+ - Revenue by Customer Segment
+ - Customer Distribution
+ - Revenue by Age Group
+ - Average Purchase Amount by Age Group
+ - Promotion Impact Analysis
 
 ![Customer Analysis Dashboard](./images/customer_analysis.png)
 
-**Key Insights:**
-- Loyal customers drive 80%+ of revenue ($186K) – strong retention
-- Middle-aged customers are the highest spending age group
-
 ---
 
-### Product & Promotion Analysis
+### 3️⃣ Product & Promotion Analysis
+  - Top Products by Revenue
+  - Category Ratings
+  - Promotion vs Non-Promotion Revenue
+  - Average Order Value by Category
 
 ![Product & Promotion Dashboard](./images/product_promotion.png)
 
