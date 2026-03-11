@@ -6,28 +6,26 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
-📊 **Live Dashboard:** [View Interactive Dashboard](dashborad/powerbi_dashboard.pdf)  
-📄 **Full Report:** [Download Project Report PDF](reports/project_report.pdf)
-
 ---
 
 ## 📋 Project Overview
 
-A complete end-to-end data analytics project that transforms raw customer transaction data into actionable business insights. This project demonstrates the full data analytics workflow: data cleaning, exploratory analysis, SQL querying, and interactive dashboard creation.
+This project analyzes customer shopping behavior to identify patterns in purchasing trends, customer demographics, product performance, and seasonal sales. The goal is to generate actionable insights that can help businesses improve marketing strategies, customer retention, and product planning.
+The project includes a complete data analytics workflow, starting from raw data processing to business intelligence dashboard creation.
 
 ---
 
-## 🎯 Key Business Questions Answered
+## 🎯 Key stages of the project include:
 
-✅ Which customer segments generate the highest revenue?  
-✅ What products drive sales in each category?  
-✅ How do discounts impact purchase behavior?  
-✅ Which seasons perform best for different products?  
-✅ What are spending patterns across age groups and genders?
+✅ Data cleaning and preprocessing 
+✅ Feature engineering 
+✅ Automated data pipeline using Python  
+✅ SQL analysis for business insights 
+✅ Exploratory Data Analysis (EDA)
+✅ Interactive dashboard development using Power BI
 
 ---
-
-## 📊 Dataset Overview
+## 🎯 Project Objectives
 
 | Metric | Value |
 |--------|-------|
