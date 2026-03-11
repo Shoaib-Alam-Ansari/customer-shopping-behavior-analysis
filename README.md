@@ -181,9 +181,16 @@ WHERE rank = 1;
 
 ---
 
-## 📊 Dashboard Preview
-
-### Executive Overview Dashboard
+## 📈 Power BI Dashboard
+A multi-page Power BI dashboard was created to present business insights visually.
+### Dashboard pages include:
+### 1️⃣ Executive Overview
+  - Total Revenue
+  - Total Customers
+  - Total Transactions
+  - Revenue by Category
+  - Revenue by Season
+  - Revenue by Gender
 
 ![Executive Overview Dashboard](./images/executive_overview.png)
 
