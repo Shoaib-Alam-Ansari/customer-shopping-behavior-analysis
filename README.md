@@ -137,14 +137,17 @@ Loyal	|More than 10 purchases|
 
 This segmentation helps analyze customer loyalty and revenue contribution.
 
-### Seasonal Performance
-- **Fall** is peak season: $60,018 revenue
-- **Summer** is slowest: $55,777 revenue
-- Clothing is top category in ALL seasons
-
-### Gender Analysis
-- Male customers contribute **68%** of total revenue
-- Male:Female spending ratio is approximately **2.1:1** across all categories
+## 📊 Exploratory Data Analysis (EDA)
+Exploratory analysis was performed using Python and visualization libraries to identify patterns and trends.
+### Key analyses included:
+ - Revenue by product category
+ - Revenue by customer gender
+ - Customer segmentation analysis
+ - Average purchase amount by age group
+ - Seasonal sales trends
+ - Promotion and discount impact
+ - Purchase frequency patterns
+ - Visualizations were created using Matplotlib and Seaborn.
 
 ---
 
