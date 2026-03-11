@@ -32,18 +32,24 @@ The project includes a complete data analytics workflow, starting from raw data 
  - Analyze **customer segments and loyalty**
  - Evaluate **seasonal sales trends**
  - Measure the impact of **promotions and discounts**
- - Build a **business dashboard**for decision making
+ - Build a **business dashboard** for decision making
 
 
-### Features Included
-
-| Category | Features |
-|----------|----------|
-| **Customer Info** | Age, Gender, Location, Subscription Status |
-| **Product Details** | Item Purchased, Category, Size, Color, Season |
-| **Transaction Data** | Purchase Amount, Discount Applied, Promo Code Used, Shipping Type |
-| **Customer Behavior** | Previous Purchases, Purchase Frequency, Review Rating |
-
+### 🛠 Tools & Technologies
+The following tools and technologies were used in this project:
+### Programming & Data Processing
+ - Python
+ - Pandas
+ - Numpy
+### Data Visualization
+ - Matplotlib
+ - Seaborn
+ - Power BI
+### Database
+ - MySQL
+### Development Environment
+ - Jupyter Notebook
+     
 ---
 
 ## 🛠️ Tech Stack
