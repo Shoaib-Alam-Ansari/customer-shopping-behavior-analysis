@@ -25,14 +25,14 @@ The project includes a complete data analytics workflow, starting from raw data 
 ✅ Interactive dashboard development using Power BI
 
 ---
-## 🎯 Project Objectives
+## 🎯 Project Objectives 
+### 🔧 Techniques Used
 
-| Metric | Value |
-|--------|-------|
-| **Total Records** | 3,900 transactions |
-| **Total Features** | 18 columns |
-| **Customer Age Range** | 18-70 years |
-| **Purchase Range** | $20 - $100 |
+ - **Data Cleaning:** Handling missing values, standardizing columns, removing duplicates
+- **Feature Engineering:** Age groups, customer segmentation
+- **Exploratory Data Analysis:** Statistical summaries, correlation analysis, outlier detection
+- **SQL Analytics:** Window functions, CTEs, aggregations, ranking
+- **Data Visualization:** Bar charts, histograms, boxplots, interactive dashboards
 
 ### Features Included
 
