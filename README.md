@@ -215,63 +215,36 @@ A multi-page Power BI dashboard was created to present business insights visuall
 
 ![Product & Promotion Dashboard](./images/product_promotion.png)
 
-**Key Insights:**
-- Top products: Blouse, Shirt, Dress lead in revenue
-- Promo codes used in 43% of orders but slightly reduce average order value
-- Footwear has highest customer satisfaction ratings
-
 ---
 
-## 🗄️ SQL Business Queries
+## 🔍 Key Insights
+### The analysis revealed several important insights:
+  - Clothing is the highest revenue generating category.
+  - Loyal customers contribute the majority of total revenue.
+  - Middle-aged customers represent the largest spending segment.
+  - Fall season generates the highest sales volume.
+  - Promotions have limited impact on increasing average purchase value.
+  - Footwear has the highest average customer satisfaction rating.
 
-```sql
--- Category Revenue Analysis
-SELECT category, SUM(purchase_amount) AS total_revenue
-FROM clean_customer_data
-GROUP BY category
-ORDER BY total_revenue DESC;
-
--- Top Products by Category
-WITH top_ranked_items AS (
-    SELECT category, item_purchased, SUM(purchase_amount) AS total_revenue,
-           RANK() OVER (PARTITION BY category ORDER BY SUM(purchase_amount) DESC) AS rank
-    FROM clean_customer_data
-    GROUP BY category, item_purchased
-)
-SELECT category, item_purchased, total_revenue
-FROM top_ranked_items
-WHERE rank = 1;
-```
-
-## 📝 Key Insights & Recommendations
-
-### 👑 Loyal Customers are Gold
-- **Finding:** 79.9% of customers are loyal, contributing 80%+ of revenue
-- **Action:** Implement VIP program with exclusive perks
-
-### 👕 Clothing Drives Business
-- **Finding:** 44.7% of revenue from clothing
-- **Action:** Expand clothing inventory, featured placements
-
-### 🏷️ Discount Strategy Needs Review
-- **Finding:** Discounts don't increase order value ($0.85 difference)
-- **Action:** Use discounts for acquisition, not upselling
-
-### 📅 Seasonal Planning
-- **Finding:** Fall is peak season ($60K), Summer low ($55.8K)
-- **Action:** Plan major campaigns in Fall, clearance in Summer
+## 💡 Business Recommendations
+### Based on the analysis, the following recommendations can be made:
+ - Focus marketing efforts on loyal customers to maximize retention.
+ - Expand inventory for high-performing product categories like clothing.
+ - Improve promotional strategies to increase their effectiveness.
+ - Develop targeted campaigns for high-value age groups.
+ - Increase marketing activity during lower-performing seasons.
   
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+## 🚀 Future Improvements
+### Potential future enhancements include:
+ - Customer churn prediction using machine learning
+ - Recommendation system for personalized product suggestions
+ - Real-time data pipeline integration
+ - Advanced customer lifetime value analysis
 
-## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📬 Contact
 **Shoaib Alam** - [https://www.linkedin.com/in/shoaib-alam-769827265/]
-
-**Project Link:** https://github.com/shoaib7459/customer-behavior-analysis
- 
+**Email** - [shoaibalam7459@gmail.com]
 
 
 
