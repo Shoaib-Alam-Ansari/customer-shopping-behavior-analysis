@@ -282,7 +282,7 @@ A multi-page Power BI dashboard was created to present business insights visuall
     - Documentation using GitHub README
 
 ## 📬 Contact
- - **Shoaib Alam** - [LinkedIn](https://www.linkedin.com/in/shoaib-alam-769827265/)
+ - **Shoaib Alam** - [LinkedIn](https://www.linkedin.com/in/shoaib-alam74/)
  - **GitHub** - [github.com/shoaib7459](https://github.com/shoaib7459)
  - **Email** - [shoaibalam7459@gmail.com](mailto:shoaibalam7459@gmail.com)[shoaibalam7459@gmail.com]
 
